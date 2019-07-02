@@ -1,0 +1,236 @@
+---------------------------------------------------------------
+[ 2019-06-30T14:31:58+08:00 ] 223.104.101.246 GET /api
+[ info ] www.ggfb.cc/api [运行时间：0.070710s][吞吐率：14.14req/s] [内存消耗：2,050.85kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api',
+  'route' => 'api/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '223.104.101.246',
+  'x-forwarded-for' => '223.104.101.246',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; MI 8 Build/PKQ1.180729.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 /6.2 TBS/044803 Mobile Safari/537.36 bsl/1.0',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.ggfb.cc',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+  'expire' => 86400,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:host=127.0.0.1;dbname=ggfb_ggfb_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `config` WHERE  `token` = 'hello.group' LIMIT 1 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-06-30T14:31:58+08:00 ] 223.104.101.246 GET /signin
+[ info ] www.ggfb.cc/signin [运行时间：0.045134s][吞吐率：22.16req/s] [内存消耗：2,198.92kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'signin',
+  'route' => 'account/signin',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for-pound' => '223.104.101.246',
+  'x-forwarded-for' => '223.104.101.246',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; MI 8 Build/PKQ1.180729.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 /6.2 TBS/044803 Mobile Safari/537.36 bsl/1.0',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.ggfb.cc',
+  'cookie' => 'PHPSESSID=177t8a7hs6ngivfhbsvkksgsmu',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/tpg,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+  'expire' => 86400,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/ggfb.ggfb.cc/application/api/view/account/signin.html [ array (
+  0 => 'platform',
+  1 => 'group',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;dbname=ggfb_ggfb_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `config` WHERE  `token` = 'hello.group' LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2019-06-30T14:31:59+08:00 ] 125.39.46.17 GET /
+[ info ] www.ggfb.cc/ [运行时间：0.029653s][吞吐率：33.72req/s] [内存消耗：1,053.11kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.ggfb.cc',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/ggfb.ggfb.cc/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T14:31:59+08:00 ] 111.30.142.186 GET /
+[ info ] www.ggfb.cc/ [运行时间：0.032927s][吞吐率：30.37req/s] [内存消耗：1,053.11kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.ggfb.cc',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/ggfb.ggfb.cc/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:57:51+08:00 ] 61.151.178.165 GET /
+[ info ] www.ggfb.cc/ [运行时间：0.023529s][吞吐率：42.50req/s] [内存消耗：1,052.35kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'www.ggfb.cc',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/ggfb.ggfb.cc/application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:04+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/jquery.themepunch.tools.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/jquery.themepunch.tools.min.js [运行时间：0.026005s][吞吐率：38.45req/s] [内存消耗：805.00kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:06+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/jquery.themepunch.revolution.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/jquery.themepunch.revolution.min.js [运行时间：0.019524s][吞吐率：51.22req/s] [内存消耗：805.01kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:11+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.actions.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.actions.min.js [运行时间：0.022147s][吞吐率：45.15req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:12+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.carousel.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.carousel.min.js [运行时间：0.018395s][吞吐率：54.36req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:15+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.kenburn.min.js [运行时间：0.021659s][吞吐率：46.17req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:16+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js [运行时间：0.037444s][吞吐率：26.71req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:18+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.migration.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.migration.min.js [运行时间：0.025432s][吞吐率：39.32req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:19+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js [运行时间：0.018066s][吞吐率：55.35req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:20+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js [运行时间：0.024647s][吞吐率：40.57req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:21+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js [运行时间：0.023971s][吞吐率：41.72req/s] [内存消耗：805.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-30T22:58:22+08:00 ] 61.151.178.165 GET /static/plugins/revo-slider/js/extensions/revolution.extension.video.min.js
+[ info ] www.ggfb.cc/static/plugins/revo-slider/js/extensions/revolution.extension.video.min.js [运行时间：0.024105s][吞吐率：41.49req/s] [内存消耗：805.00kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/ggfb.ggfb.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
